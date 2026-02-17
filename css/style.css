@@ -309,3 +309,30 @@ body {
   margin-top: 24px;
   color: #111827;
 }
+.partner-section{
+    
+    padding: 0px 120px;
+    
+}
+.partner-container {
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner-content {
+    flex: 1;
+}
+.partner-content h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #111827;
+    line-height: 130%;
+    margin-bottom: 8px;
+}
+.partner-content p {
+    font-size: 16px;
+    color: #374151;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
