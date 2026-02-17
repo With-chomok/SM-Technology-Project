@@ -32,6 +32,7 @@ body {
   font-weight: 700;
   font-size: 48px;
   color: #111827;
+  line-height: 130%;
 }
 /* navbar styles */
 
@@ -96,6 +97,7 @@ body {
   font-weight: 900;
   color: #111827;
   margin-bottom: 20px;
+  line-height: 130%;
 }
 .hignlight {
   color: #00c7b4;
@@ -104,6 +106,7 @@ body {
   font-size: 16px;
   color: #374151;
   margin-bottom: 30px;
+  line-height: 120%;
 }
 
 .image-box {
@@ -127,6 +130,7 @@ body {
   color: #374151;
   font-weight: 500;
   text-align: center;
+  line-height: 120%;
 }
 
 /* partner section :start */
@@ -143,6 +147,7 @@ body {
   font-weight: 700;
   color: #111827;
   margin-bottom: 20px;
+  
 }
 .border {
   border: 3px solid #00c7b4;
@@ -180,7 +185,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  
 }
 .discover-content {
   display: flex;
@@ -195,7 +199,7 @@ body {
   justify-items: center;
   width: 762px;
   text-align: center;
-  margin: 80px 339px ;
+  margin: 80px 339px;
 }
 
 .discover-card {
@@ -229,6 +233,7 @@ body {
   border-radius: 10px;
 }
 .card-content h3 {
+
   margin-top: 20px;
   font-size: 24px;
   font-weight: 700;
@@ -236,6 +241,7 @@ body {
   margin-bottom: 10px;
 }
 .card-content p {
+    line-height: 120%;
   font-size: 16px;
   color: #374151;
 }
@@ -244,4 +250,62 @@ body {
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.transport-section {
+  padding: 80px 120px;
+}
+.transport-car {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 520px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.transport-car::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../assets/images/cardt.jpg);
+  background-size: cover;
+  background-position: center;
+  transform: rotateY(3.142rad);
+  z-index: -1;
+  /* opacity: 0.5 ; */
+  filter: brightness(50%);
+  border-radius: 10px;
+}
+.transport-car h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  width: 800px;
+   line-height: 130%;
+  margin-bottom: 24px;
+}
+.transport-car p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 800px;
+}
+.transport-details {
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.transport-details h2 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  width: 800px;
+  line-height: 130%;
+  margin-top: 24px;
+  color: #111827;
 }
