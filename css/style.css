@@ -1,0 +1,54 @@
+/*  1. Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* navbar styles */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 120px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.nav-items {
+    gap: 10px;
+    padding: 8px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-btn{
+    padding: 8px;
+    color: #00C7B4;
+    border: 1px solid #00C7B4;
+    background-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
