@@ -165,3 +165,17 @@ body {
     align-items: center;
     color: #374151;
 }
+
+.logo-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 90px;
+    background-color: #00C7B4;
+    margin-bottom: 80px;
+}
+.logo-items {
+    margin: 24px 120px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
