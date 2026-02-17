@@ -143,11 +143,12 @@ body {
 .partner-section {
   display: flex;
   gap: 48px;
+  margin: 80px 0px;
   padding: 80px 120px;
   justify-content: space-between;
   align-items: center;
 }
-.partner-content h2 {
+.partner-content h3 {
   font-size: 32px;
   font-weight: 700;
   color: #111827;
@@ -429,7 +430,7 @@ body {
 
 
 .FAQ-section {
-    
+    margin-top: 80px;
     padding: 80px 120px;
     background-color: #E5FFFD;
 }
@@ -485,4 +486,92 @@ body {
     color: #374151;
     margin: 16px 0;
 
+}
+
+
+.footer-section {
+    background-color: #009E8F;
+    padding: 24px;
+    color: whitesmoke;
+}
+.footer-container{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-contact img {
+    width: 120px;
+    object-fit: cover;
+}
+.footer-contact p {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.footer-links {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer-connect h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.footer-connect input {
+  flex: 1;
+  padding: 15px 25px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+}
+
+
+.foot-btn {
+  padding: 14px 20px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  background-color: #00c7b4;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button image */
+.foot-btn img {
+  width: 18px;
+}
+.border-b {
+    border: 1px solid #00C7B4;
+     width: 100%;
+     margin-top: 20px;
+}
+.footer-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.social-link {
+    display: flex;
+    gap: 8px;
 }
