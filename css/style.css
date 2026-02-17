@@ -122,7 +122,6 @@ body {
   gap: 16px;
 }
 
-
 .grid-item img {
   width: 100%;
   object-fit: cover;
@@ -364,8 +363,126 @@ body {
 
 .gallery-item img {
   width: 100%;
- 
+
   object-fit: cover;
   border-radius: 12px;
   display: block;
+}
+
+.clients {
+  margin: 0px 120px;
+}
+.client-container h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.client-container p {
+  font-size: 16px;
+  color: #374151;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.client-card {
+  display: flex;
+  gap: 19px;
+  align-items: start;
+  justify-content: start;
+  text-align: start;
+}
+.client-card-item{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-items: center;
+  text-align: start;
+  gap: 24px;
+  padding:32px 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+.client-card-item p {
+  font-size: 16px;
+  color: #111827;
+  font-weight: 400;
+  line-height: 120%;
+}
+.card-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.profile-content h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111827;
+}
+.profile-content p {
+  font-size: 14px;
+  color: #111827;
+  line-height: 120%;
+}
+
+
+.FAQ-section {
+    
+    padding: 80px 120px;
+    background-color: #E5FFFD;
+}
+.FAQ-container {
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+    
+}
+.FAQ-left-content {
+    
+    width: 308px;
+    
+}
+.FAQ-left-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111827;
+    line-height: 130%;
+    margin-bottom: 8px;
+}
+.FAQ-left-content p {
+    font-size: 16px;
+    color: #374151;
+    line-height: 120%;
+    margin-bottom: 32px;
+}
+.FAQ-right-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.FAQ-right-content div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.FAQ-right-content div h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #111827;
+
+}
+
+.FAQ-right-content p {
+    font-size: 16px;
+    color: #374151;
+    line-height: 120%;
+}
+.hr {
+    color: #374151;
+    margin: 16px 0;
+
 }
